@@ -1,0 +1,21 @@
+{
+  "name": "product-crud-api",
+  "version": "1.0.0",
+  "description": "This is Product Curd Api using Nodejs-Expressjs-MongoDB",
+  "license": "ISC",
+  "author": "Sugam Karmakar",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js && nodemon app.js",
+    "dev": "node api.js && nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14"
+  }
+}
